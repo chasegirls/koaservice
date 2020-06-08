@@ -8,7 +8,11 @@ router.get('/', function (ctx, next) {
   //  接收参数name
   const { name } = ctx.query
   // ctx.successJson(homeService.getHomeData(name))
-  ctx.body='lljsldfs'
+  ctx.body='测试代码'
+})
+router.get('/test',function(ctx,next){
+  const { name } = ctx.query
+  ctx.successJson(homeService.getHomeData(name))
 })
 
 router.get('/error', function (ctx, next) {
