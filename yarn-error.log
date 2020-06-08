@@ -1,0 +1,51 @@
+Arguments: 
+  D:\Program Files\nodejs\node.exe D:\Program Files (x86)\Yarn\bin\yarn.js
+
+PATH: 
+  C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\TortoiseSVN\bin;D:\Program Files\nodejs\;D:\Program Files (x86)\Yarn\bin\;D:\Program Files\Git\cmd;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;%SYSTEMROOT%\System32\OpenSSH\;C:\Users\LuoChao\AppData\Local\Microsoft\WindowsApps;C:\Users\LuoChao\AppData\Roaming\npm;C:\Users\LuoChao\AppData\Local\Yarn\bin;D:\Users\LuoChao\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\LuoChao\AppData\Local\BypassRuntm;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;D:\Users\LuoChao\AppData\Local\Programs\Fiddler
+
+Yarn version: 
+  1.13.0
+
+Node version: 
+  10.15.3
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile 'C:\Users\LuoChao\AppData\Local\Yarn\Cache\v4\npm-ms-2.1.2-d09d1f357b443f493382a8eb3ccd183872ae6009\node_modules\ms\index.js' -> 'D:\学习文件夹\koa\koa2service\koaservice\node_modules\koa-router\node_modules\ms\index.js'
+
+npm manifest: 
+  {
+    "name": "koaservice",
+    "version": "1.0.0",
+    "description": "模板代码",
+    "main": "server.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/chasegirls/koaservice.git"
+    },
+    
+    "author": "超越",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/chasegirls/koaservice/issues"
+    },
+    "homepage": "https://github.com/chasegirls/koaservice#readme",
+    "dependencies": {
+      "koa": "^2.12.0",
+      "koa-router": "^8.0.8",
+      "koa-static-cache": "^5.1.3",
+      "nodemon": "^2.0.4"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
